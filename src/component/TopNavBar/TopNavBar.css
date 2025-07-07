@@ -1,0 +1,62 @@
+.Topnavbar {
+  width: 100%;
+  background-color: #222; /* adjust to your design */
+  padding: 12px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Content wrapper */
+.topnavbar-divs-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 24px;
+  align-items: center;
+  color: white;
+  font-family: Heebo, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+}
+
+/* Icon and text group */
+.topnav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Icon style */
+.topnav-icons {
+  color: rgb(245, 223, 8);
+  font-size: 18px;
+}
+
+/* Divider */
+.topnav-hr {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(245, 223, 8);
+  margin-top: 8px;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  .topnavbar-divs-display {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .Topnavbar {
+    padding: 12px 16px;
+    align-items: flex-start;
+  }
+
+  .topnav-hr {
+    align-self: stretch;
+  }
+}
