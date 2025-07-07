@@ -1,4 +1,3 @@
-import "./AboutUs.css";
 import clock from "../../assets/clock.png";
 import int from "../../assets/interiorimg.jpg";
 import CountUp from "react-countup";
@@ -7,6 +6,7 @@ import smart from "../../assets/execute-removebg-preview.png";
 import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
 import { Link } from "react-router-dom";
+import "./Aboutus.css";
 
 // ✅ Animation Variants
 const containerVariants: Variants = {
