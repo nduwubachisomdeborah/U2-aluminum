@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./NavBar.css";
 import logo from "../../assets/U2 LOGO_012459.png";
 import { Link } from "react-router-dom";

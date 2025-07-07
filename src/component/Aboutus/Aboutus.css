@@ -1,11 +1,11 @@
 .About-us-main-div {
   background: white;
-  padding-top: 5px;
+  padding-top: 50px;
 }
 
 .About-us-div-display {
   display: flex;
-  gap: 18px;
+  gap: 20px;
   justify-content: space-evenly;
   width: 95%;
   margin: 0 auto;
@@ -59,7 +59,7 @@
   flex-wrap: wrap;
   gap: 40px;
   width: 95%;
-  margin: 10px auto;
+  margin: 70px auto;
 }
 
 .about-us-div2-img {
