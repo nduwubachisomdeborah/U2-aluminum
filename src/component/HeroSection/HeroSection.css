@@ -12,7 +12,7 @@
   height: 200vh;
 }
 .background-div-overlay {
-  background-color: rgba(0, 0, 0, 90);
+  background-color: rgba(0, 0, 0, 200);
   z-index: -3;
   position: absolute;
   top: 0;
@@ -56,7 +56,7 @@
   color: rgb(255, 255, 255);
   position: absolute;
   left: 0px;
-  top: 40%;
+  top: 20%;
 }
 
 /* .caption-writeup {
@@ -74,7 +74,7 @@
 .caption-writeup {
   /* color: black; */
   position: absolute;
-  top: 66%;
+  top: 47%;
   left: 50px; /* Increased from 40px to 60px */
   z-index: 1;
   display: flex;
@@ -82,7 +82,7 @@
   justify-content: left;
   font-weight: 500;
   color: wheat;
-  margin-right: 200px;
+  margin-right: 400px;
 }
 
 .btn-btn-navbar {
@@ -95,13 +95,14 @@
   background: rgb(245, 223, 8);
   position: absolute;
   left: 3%;
-  top: 72%;
+  top: 20%;
   font-family: Manrope, sans-serif;
   cursor: pointer;
   font-weight: 400;
   border-radius: 2px;
   color: rgb(31, 31, 33);
   z-index: 1;
+  margin-bottom: 500px;
 }
 .btn-btn-navbar:hover {
   background: lightgray;

@@ -12,9 +12,7 @@ import "./Aboutus.css";
 const containerVariants: Variants = {
   hidden: {},
   visible: {
-    transition: {
-      staggerChildren: 0.2,
-    },
+    transition: { staggerChildren: 0.2 },
   },
 };
 
@@ -23,10 +21,7 @@ const cardVariant: Variants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.25, 0.1, 0.25, 1],
-    },
+    transition: { duration: 0.6, ease: [0.25, 0.1, 0.25, 1] },
   },
 };
 
@@ -35,10 +30,7 @@ const fadeLeftVariant: Variants = {
   visible: {
     x: 0,
     opacity: 1,
-    transition: {
-      duration: 0.8,
-      ease: [0.25, 0.1, 0.25, 1],
-    },
+    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] },
   },
 };
 
@@ -47,10 +39,7 @@ const fadeUpVariant: Variants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.8,
-      ease: [0.25, 0.1, 0.25, 1],
-    },
+    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] },
   },
 };
 
@@ -69,17 +58,28 @@ const AboutUs = () => {
           {
             image: clock,
             caption: "Swift Roof",
-            text: "Using smart methods, strong tools, and a trained team, we accelerate project timelines without compromising quality. From roofing sheets to aluminum works, Swift Roof transforms your vision into a safe, durable, and visually appealing result.",
+            text:
+              "Using smart methods, strong tools, and a trained team, we accelerate " +
+              "project timelines without compromising quality. From roofing sheets to " +
+              "aluminum works, Swift Roof transforms your vision into a safe, durable, and " +
+              "visually appealing result.",
           },
           {
             image: good,
             caption: "Smart Execute",
-            text: "With cutting-edge technology, streamlined processes, and a team of experts, we ensure efficient and precise project implementation. From concept to completion, Smart Execute transforms ideas into reality, delivering excellence every step of the way.",
+            text:
+              "With cutting-edge technology, streamlined processes, and a team of experts, " +
+              "we ensure efficient and precise project implementation. From concept to " +
+              "completion, Smart Execute transforms ideas into reality, delivering excellence " +
+              "every step of the way.",
           },
           {
             image: smart,
             caption: "Flawless Project Delivery",
-            text: "We meticulously inspect, refine, and ensure that every detail is flawlessly executed. Our dedication to quality and precision ensures that your project is not just delivered, but handed over with pride, confidence, and the assurance of perfection.",
+            text:
+              "We meticulously inspect, refine, and ensure that every detail is flawlessly " +
+              "executed. Our dedication to quality and precision ensures that your project is " +
+              "not just delivered, but handed over with pride, confidence, and the assurance of perfection.",
           },
         ].map((card, index) => (
           <motion.div
@@ -133,14 +133,18 @@ const AboutUs = () => {
               </div>
               <div>Project Done</div>
             </div>
+
             <div className="about-us-hr"></div>
+
             <div>
               <div className="number-div">
                 <CountUp end={100} duration={20} />%
               </div>
               <div>Happy Clients</div>
             </div>
+
             <div className="about-us-hr"></div>
+
             <div>
               <div className="number-div">
                 <CountUp end={50} duration={20} />+

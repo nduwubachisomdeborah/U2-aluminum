@@ -5,6 +5,7 @@ import heroVideo from "../../assets/videophone.mp4";
 import "./Aboutuspage.css";
 import TopNavBar from "../../component/TopNavBar/TopNavBar";
 import NavBar from "../../component/NavBar/NavBar";
+import Footer from "../../component/Footer/Footer";
 // import Fade from "react-reveal/Fade";
 const AboutUs = () => {
   const email = "U2Alminum@gmail.com";
@@ -57,7 +58,7 @@ const AboutUs = () => {
             <div className="who-we-are-content-div">
               <div className="who-we-are-h1">WHO WE ARE</div>
               <div className="Builders-writeup"></div>
-              <div>
+              <div className="u2systems">
                 U2 Aluminum Systems Enterprise is a leading roofing and aluminum
                 solutions company, specializing in the supply and installation
                 of high-quality roofing sheets and aluminum products across
@@ -105,7 +106,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

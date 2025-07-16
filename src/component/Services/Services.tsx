@@ -10,7 +10,7 @@ const Services = () => {
     window.location.href = `mailto:${email}`;
   };
   return (
-    <div className="Services-main-div">
+    <div id="sectors" className="Services-main-div">
       <div className="Services-div-dsiplay ">
         <div className="Service-first-div">
           <div className="sectors-we-serve">SECTORS WE SERVE</div>

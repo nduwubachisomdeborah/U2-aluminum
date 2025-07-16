@@ -1,4 +1,5 @@
 import AboutUs from "../component/Aboutus/Aboutus";
+import Footer from "../component/Footer/Footer";
 import HeroSection from "../component/HeroSection/HeroSection";
 import NavBar from "../component/NavBar/NavBar";
 import Services from "../component/Services/Services";
@@ -14,6 +15,7 @@ const Homepage = () => {
       <AboutUs />
       <Services />
       <Services2 />
+      <Footer />
     </div>
   );
 };
