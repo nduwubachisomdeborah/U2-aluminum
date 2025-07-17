@@ -220,4 +220,15 @@
   .about-us-hr {
     display: flex;
   }
+  .who-we-are-display-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 150px;
+  }
+  .who-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 }
