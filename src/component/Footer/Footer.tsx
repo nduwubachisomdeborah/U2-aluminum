@@ -64,7 +64,7 @@ const Footer = () => {
             <div style={{ fontSize: "15px" }}>Profile</div>
           </div> */}
           <div className="footer-section3">
-            <div className="footer-header">Products</div>
+            <div className="footer-header">PRODUCTS</div>
             <ul
               style={{
                 paddingLeft: "20px",
@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
 
           <div id="contact" className="footer-section4">
-            <div className="footer-header">Contact Us</div>
+            <div className="footer-header">CONTACT US</div>
             <div style={{ fontSize: "15px" }}>
               KM 5 OWERRI ABA ROAD BY POLY JUNCTION OWERRI, IMO STATE
             </div>

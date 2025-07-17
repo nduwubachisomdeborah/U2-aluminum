@@ -187,9 +187,9 @@
     text-align: center;
   }
 
-  /* .about-us-hr {
-    display: none;
-  } */
+  .about-us-hr {
+    display: flex;
+  }
 
   .number-div {
     font-size: 24px;
@@ -214,5 +214,10 @@
   .uz {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-us-hr {
+    display: flex;
   }
 }

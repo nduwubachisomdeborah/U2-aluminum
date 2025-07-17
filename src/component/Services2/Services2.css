@@ -2,13 +2,14 @@
   background: rgb(239, 239, 239);
   height: auto;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .our-services-div {
   margin-top: 50px;
-  color: rgb(245, 223, 8);
-  font-size: larger;
-  font-weight: 600;
+  color: rgb(172, 155, 5);
+  font-size: 40px;
+  font-weight: 800;
   text-align: center;
   font-family: "Saira" sans-serif;
 }
@@ -37,7 +38,7 @@
 }
 .service-range-hr {
   width: 200px;
-  background: rgb(245, 223, 8);
+  background: rgb(172, 155, 5);
   height: 1vh;
   display: flex;
   justify-content: center;

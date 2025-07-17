@@ -1,5 +1,5 @@
 import clock from "../../assets/clock.png";
-import int from "../../assets/interiorimg.jpg";
+import int from "../../assets/whoweare.jpg";
 import CountUp from "react-countup";
 import good from "../../assets/good-removebg-preview.png";
 import smart from "../../assets/execute-removebg-preview.png";
@@ -66,7 +66,7 @@ const AboutUs = () => {
           },
           {
             image: good,
-            caption: "Smart Execute",
+            caption: "Smart Execution",
             text:
               "With cutting-edge technology, streamlined processes, and a team of experts, " +
               "we ensure efficient and precise project implementation. From concept to " +
@@ -129,7 +129,8 @@ const AboutUs = () => {
           <div className="numbers-display-div">
             <div>
               <div className="number-div">
-                <CountUp end={1} duration={20} />K
+                <CountUp end={1} duration={20} />
+                k+
               </div>
               <div>Project Done</div>
             </div>

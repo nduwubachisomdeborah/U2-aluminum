@@ -1,7 +1,7 @@
-import int from "../../assets/interiorimg.jpg";
+import int from "../../assets/whoweare.jpg";
 import CountUp from "react-countup";
 
-import heroVideo from "../../assets/videophone.mp4";
+import heroVideo from "../../assets/Background.mp4";
 import "./Aboutuspage.css";
 import TopNavBar from "../../component/TopNavBar/TopNavBar";
 import NavBar from "../../component/NavBar/NavBar";
@@ -76,7 +76,8 @@ const AboutUs = () => {
               <div className="numbers-display-div">
                 <div>
                   <div className="number-div">
-                    <CountUp end={1} duration={20} />K{" "}
+                    <CountUp end={1} duration={20} />
+                    K+{" "}
                   </div>
 
                   <div>Project Done</div>

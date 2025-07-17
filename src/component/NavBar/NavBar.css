@@ -87,9 +87,12 @@
 /* Hamburger icon - hidden on desktop */
 .navbar-icon {
   display: none;
-  font-size: 28px;
+  font-size: 20px;
   cursor: pointer;
   color: #fff; /* ✅ visible on dark background */
+}
+.bars {
+  margin-left: 200px;
 }
 
 /* Responsive Mobile Menu */
@@ -110,14 +113,16 @@
     display: flex;
   }
   .logo-img {
-    margin-left: -70px;
+    margin-left: -90px;
+    height: 150%;
+    width: 150%;
+    object-fit: contain;
   }
 
   .navbar-links ul {
     flex-direction: column;
     gap: 16px;
   }
-
   .navbar-links ul li a {
     color: #fff; /* ✅ consistent with desktop */
     font-size: 18px;
