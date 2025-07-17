@@ -57,7 +57,7 @@ const AboutUs = () => {
         {[
           {
             image: clock,
-            caption: "Swift Roof",
+            caption: "Swift Roofing",
             text:
               "Using smart methods, strong tools, and a trained team, we accelerate " +
               "project timelines without compromising quality. From roofing sheets to " +
