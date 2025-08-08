@@ -4,7 +4,7 @@ import "./HeroSection.css"; // Create this file for styling
 // import Slider from "react-slick";
 import round from "../../assets/arrow.png";
 import { useLocation } from "react-router-dom";
-import heroVideo from "../../assets/WhatsApp Video 2025-08-06 at 10.53.58_84b95ac6.mp4";
+import heroVideo from "../../assets/mainvideo.mp4";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 const HeroSection: React.FC = () => {

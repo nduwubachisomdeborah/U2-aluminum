@@ -7,17 +7,20 @@ import caut from "../../assets/perforated.jpg";
 import kitchen from "../../assets/brownbundle.png";
 import kihen from "../../assets/slategrey.jpg";
 import chen from "../../assets/ALLshade.png";
-import lit from "../../assets/copperimage1.png";
+import lit from "../../assets/newcopper.jpg";
 import kit from "../../assets/corperimage3.png";
 import light from "../../assets/sharpaluminum.png";
 import lig from "../../assets/officeshingle.jpg";
 import furniture from "../../assets/brightalumi.png";
-import ture from "../../assets/navyblue.jpg";
+import ture from "../../assets/brownalu.jpg";
 import furn from "../../assets/copperimage4.png";
 import wall from "../../assets/shinyblackaluminum.png";
 import wal from "../../assets/forestgreen.jpg";
 import sales from "../../assets/Aluminum.png";
-import carpet from "../../assets/copperimage.png";
+import carpet from "../../assets/navyblue.jpg";
+import pet from "../../assets/perforated.jpg";
+import petty from "../../assets/corperimage5.png";
+import carp from "../../assets/sharpaluminum.png";
 import pop from "../../assets/cleanaluimage.png";
 import diff from "../../assets/brownalu.jpg";
 import corp from "../../assets/corperimage5.png";
@@ -116,7 +119,7 @@ const Services2 = () => {
         </div>
         <div className="service-range-card">
           <div className="service-range-img-div">
-            <img src={carpet} alt="top" className="service-range-img" />{" "}
+            <img src={carp} alt="top" className="service-range-img" />{" "}
           </div>
           <div className="fit-out">
             {/* {" "}
@@ -209,7 +212,7 @@ const Services2 = () => {
         </div>
         <div className="service-range-card">
           <div className="service-range-img-div">
-            <img src={carpet} alt="top" className="service-range-img" />{" "}
+            <img src={petty} alt="top" className="service-range-img" />{" "}
           </div>
 
           <div className="fit-out-write-up"></div>
@@ -286,7 +289,7 @@ const Services2 = () => {
         </div>
         <div className="service-range-card">
           <div className="service-range-img-div">
-            <img src={carpet} alt="top" className="service-range-img" />{" "}
+            <img src={pet} alt="top" className="service-range-img" />{" "}
           </div>
           <div className="fit-out"> </div>
 
