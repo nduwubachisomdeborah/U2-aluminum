@@ -1,7 +1,7 @@
 import int from "../../assets/whoweare.jpg";
 import CountUp from "react-countup";
 
-import heroVideo from "../../assets/Background.mp4";
+import heroVideo from "../../assets/WhatsApp Video 2025-08-06 at 10.53.58_84b95ac6.mp4";
 import "./Aboutuspage.css";
 import TopNavBar from "../../component/TopNavBar/TopNavBar";
 import NavBar from "../../component/NavBar/NavBar";

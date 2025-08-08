@@ -1,5 +1,5 @@
 import "./Services.css";
-import modern from "../../assets/shingleswhitebtch.jpeg";
+import modern from "../../assets/brightaluimg.png";
 import closed from "../../assets/machines.png";
 import CountUp from "react-countup";
 
