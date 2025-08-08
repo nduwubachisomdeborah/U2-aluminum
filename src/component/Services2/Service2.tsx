@@ -361,7 +361,7 @@ const Services2 = () => {
           <div className="service-range-img-div">
             <img src={lig} alt="top" className="service-range-img" />{" "}
           </div>
-          <div className="fit-out">Shingle black With white Patch</div>
+          <div className="fit-out">Shingles black With white Patch</div>
 
           <div className="fit-out-write-up"></div>
         </div>
@@ -414,7 +414,7 @@ const Services2 = () => {
           <div className="service-range-img-div">
             <img src={bid} alt="top" className="service-range-img" />{" "}
           </div>
-          <div className="fit-out">Shingle COffee-brown With Black Patch</div>
+          <div className="fit-out">Shingles COffee-brown With Black Patch</div>
 
           <div className="fit-out-write-up">
             {/* Our fit-out work is a symphony of precision and creativity,
