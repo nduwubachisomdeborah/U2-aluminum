@@ -361,7 +361,7 @@ const Services2 = () => {
           <div className="service-range-img-div">
             <img src={lig} alt="top" className="service-range-img" />{" "}
           </div>
-          <div className="fit-out">Shingle white With Black Patch</div>
+          <div className="fit-out">Shingle black With white Patch</div>
 
           <div className="fit-out-write-up"></div>
         </div>
