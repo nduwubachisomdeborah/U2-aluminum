@@ -5,6 +5,7 @@ import cautin from "../../assets/brightaluimg.png";
 import cin from "../../assets/newcopper.jpg";
 import caut from "../../assets/perforated.jpg";
 import kitchen from "../../assets/brownbundle.png";
+import itch from "../../assets/forestgreen.jpg";
 import kihen from "../../assets/slategrey.jpg";
 import chen from "../../assets/ALLshade.png";
 import lit from "../../assets/newcopper.jpg";
@@ -400,7 +401,7 @@ const Services2 = () => {
         </div>
         <div className="service-range-card">
           <div className="service-range-img-div">
-            <img src={kitchen} alt="top" className="service-range-img" />{" "}
+            <img src={itch} alt="top" className="service-range-img" />{" "}
           </div>
 
           <div className="fit-out-write-up"></div>
