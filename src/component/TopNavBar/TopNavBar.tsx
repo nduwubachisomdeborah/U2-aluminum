@@ -18,7 +18,7 @@ const TopNavBar = () => {
         </div>
         <div className="topnav-item">
           <FaEnvelope className="topnav-icons" />
-          <span>U2aluminum@gmail.com</span>
+          <span>u2aluminumsystemsenterprise@gmail.com</span>
         </div>
       </div>
       <div className="topnav-hr"></div>

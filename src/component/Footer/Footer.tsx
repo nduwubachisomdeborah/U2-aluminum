@@ -87,7 +87,9 @@ const Footer = () => {
             <div style={{ fontSize: "15px" }}>
               KM 5 OWERRI ABA ROAD BY POLY JUNCTION OWERRI, IMO STATE
             </div>
-            <div style={{ fontSize: "15px" }}>Email: U2aluminum@gmail.com</div>
+            <div style={{ fontSize: "15px" }}>
+              Email: u2aluminumsystemsenterprise@gmail.com
+            </div>
             <div style={{ fontSize: "15px" }}>Phone: +2348033206896 </div>
           </div>
         </div>
