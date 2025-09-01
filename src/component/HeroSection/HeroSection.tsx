@@ -1,55 +1,80 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import whatsapp from "../../assets/whatsapp.png";
-import "./HeroSection.css"; // Create this file for styling
-// import Slider from "react-slick";
+import "./HeroSection.css";
 import round from "../../assets/arrow.png";
 import { useLocation } from "react-router-dom";
-import heroVideo from "../../assets/mainvideo.mp4";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import heroVideo from "../../assets/videocompany.mp4";
+
 const HeroSection: React.FC = () => {
   const { pathname } = useLocation();
   const phoneNumber = "+2348033206896";
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMuted, setIsMuted] = useState(true);
+
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+
   const email = "U2Aluminum@gmail.com";
   const handleGmailClick = () => {
-    // Replace 'mailto' with the recipient's email
     window.location.href = `mailto:${email}`;
   };
+
   const WhatsappClick = () => {
     const url = `https://wa.me/${phoneNumber}`;
     window.open(url, "_blank");
   };
-  const settings = {
-    // dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    appendDots: (dots: any) => {
-      return <ul style={{ margin: "0px" }}>{dots}</ul>;
-    },
-  };
+
+  useEffect(() => {
+    const handleFirstClick = () => {
+      if (videoRef.current) {
+        videoRef.current.muted = false;
+        videoRef.current.play();
+        setIsMuted(false);
+      }
+      // Remove listener after first interaction
+      document.removeEventListener("click", handleFirstClick);
+    };
+
+    document.addEventListener("click", handleFirstClick);
+
+    return () => {
+      document.removeEventListener("click", handleFirstClick);
+    };
+  }, []);
+
   return (
     <div className="hero-container">
       <div className="hero-video-div">
-        {/* <Slider {...settings}> */}
         <div className="background-div-overlay"></div>
-        <video autoPlay loop muted className="video-background">
+
+        <video
+          ref={videoRef}
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="video-background"
+        >
           <source src={heroVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        {/* <video autoPlay loop muted className="video-background2">
-            <source
-              src={process.env.PUBLIC_URL + "/videos/vivi.mp4"}
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video> */}
-        {/* </Slider> */}
+
+        {/* Floating mute button to toggle manually */}
+        <button
+          className="mute-btn"
+          onClick={() => {
+            if (videoRef.current) {
+              videoRef.current.muted = !videoRef.current.muted;
+              setIsMuted(videoRef.current.muted);
+            }
+          }}
+        >
+          {isMuted ? "🔊 Unmute" : "🔇 Mute"}
+        </button>
       </div>
+
       <div className="hero-caption"> U2 Aluminum Systems Enterprise</div>
       <div className="caption-writeup">
         Roofing and Contracting Company where creativity meets standard
@@ -60,12 +85,12 @@ const HeroSection: React.FC = () => {
       <div className="whatsapp-img-div">
         <div className="whatsapp-img-size" onClick={WhatsappClick}>
           <img src={whatsapp} alt="whatsapp" className="whatsapp-img" />
-        </div>{" "}
+        </div>
       </div>
       <div className="round-arrow-img-div">
         <div className="whatsapp-img-size" onClick={scrollToTop}>
-          <img src={round} alt="whatsapp" className="whatsapp-img" />
-        </div>{" "}
+          <img src={round} alt="scroll up" className="whatsapp-img" />
+        </div>
       </div>
     </div>
   );

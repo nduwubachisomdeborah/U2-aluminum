@@ -73,14 +73,12 @@ const Footer = () => {
               }}
             >
               <li>CHARCOAL BLACK SHINGLES</li>
-              <li>SHERK STONECOATED</li>
+              <li>SHEIK STONECOATED</li>
               <li>MILANO</li>
               <li>CLASSIC CHARCOAL BLACK</li>
               <li>ALUMINUM</li>
-              <li>BLACK ALUMINUM</li>
               <li>SHINGLE BLACK WITH WHITE PATCH</li>
               <li>SHINGLE COFFEE WITH BLACK PATCH</li>
-              <li>ASH GREY ALUMINUM</li>
             </ul>
           </div>
 
